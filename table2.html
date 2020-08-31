@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 800px;
+            /* auto th会根据th里面的字进行加宽
+            fixed th都一样宽 */
+            margin: 100px auto;
+            table-layout: fixed;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>accssssss</th>
+                <th>b</th>
+                <th>c</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>数学</th>
+                <td>78</td>
+                <td>78</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <th>英语</th>
+                <td>78</td>
+                <td>78</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <th>语文</th>
+                <td>78</td>
+                <td>78</td>
+                <td>78</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>总分</th>
+            <td>200</td>
+            <td>200</td>
+            <td>200</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
